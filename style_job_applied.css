@@ -1,0 +1,56 @@
+.formhead 
+{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.position {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.row {
+    margin: 30px;
+}
+
+.cname {
+    font-size: 1.2em;
+    color: blue;
+}
+
+.col1 {
+    border: 2px solid black;
+    margin: 20px;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.input1 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+}
+
+.star {
+    color: red;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+.btn11 {
+    text-align: center;
+}
