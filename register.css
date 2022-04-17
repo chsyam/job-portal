@@ -1,0 +1,20 @@
+body{
+    background-image: url('backgroundimage.jpg');
+    background-size: cover;
+}
+form{
+    margin-top: 6em;
+    margin-left: 30em;
+    margin-right: 15em;
+    padding: 30px;
+    background-color: white;
+}
+.form-text{
+    color: white;
+}
+.mb-3 input{
+    border: 1px solid black;
+}
+p{
+    font-size: 1.2em;;
+}
