@@ -1,0 +1,230 @@
+body {
+    background: #DCE35B;
+    background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+    background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+.container {
+    padding: 20px;
+}
+
+.flexbox {
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox .block_reg {
+    width: 420px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 270px;
+    color: rgba(251, 24, 35, 0.89);
+    background-color: darkgray;
+    transform: translateY(50%);
+}
+
+.flexbox .register {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.flexbox .login {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.flexbox .register button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    transform: translateY(60%);
+}
+
+.flexbox .login input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    font-size: 0.8 em;
+}
+
+.flexbox .login .submit {
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    cursor: pointer;
+}
+.flexbox .register label
+{
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .reg
+{
+    display: grid;
+}
+.reg form{
+    padding:20px;
+}
+.reg
+{
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 54%;
+    right: 45%;
+    transform: translate(-50%,-50%);
+}
+.reg
+{
+    width: 700px;
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    border: 1px solid white;
+    background: white;
+    padding: 20px;
+}
+.header-reg
+{
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    text-align: center;
+}
+.reg .form .submit
+{
+    padding: 10px;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+    color: black;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.reg .form .submit:hover
+{
+    background-color: green;
+    color: white;
+}
+.reg .can
+{
+    text-align: right;
+}
+.reg .can .cancel
+{
+    transition: 0.2s all ease;
+    padding: 10px;
+}
+.reg .can .cancel:hover
+{
+    background-color: red;
+    color: white;
+}
+.reg .form-text
+{
+    color: gray;
+}
+.reg .form div
+{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.reg .form div input
+{
+    border: 1px solid black;
+    outline: none;
+    font-family: 25px;
+    padding: 10px;
+}
+.cancel
+{
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cancel i
+{
+    padding: 0 5px;
+}
+
+.form {
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.popup_block {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popup_block input {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    outline: none;
+}
+
+.form button {
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+    font-size: 1.15em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.form .submit {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.form .submit:hover {
+    background-color: green;
+    box-shadow: 2px 2px 16px green;
+    transition: 0.2s all ease;
+}
+
+.form .reset {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+}
+
+.form .reset:hover {
+    background-color: red;
+    box-shadow: 2px 2px 16px red;
+    transition: 0.5s all ease;
+}
+
+h1 {
+    text-align: center;
+}

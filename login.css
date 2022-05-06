@@ -1,0 +1,34 @@
+body{
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+form{
+    margin-top: 6em;
+    margin-left: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+}
+
+.mb-3 input{
+    border: 1px solid black;
+}
+p{
+    font-size: 1.2em;;
+}
+.head{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #010802;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.flex {
+    
+    margin-top: 120px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
